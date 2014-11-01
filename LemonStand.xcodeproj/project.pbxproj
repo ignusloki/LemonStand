@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8452BC8A1A053B8A009AD3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452BC891A053B8A009AD3AA /* AppDelegate.swift */; };
+		8452BC8C1A053B8A009AD3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452BC8B1A053B8A009AD3AA /* ViewController.swift */; };
+		8452BC8F1A053B8A009AD3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8452BC8D1A053B8A009AD3AA /* Main.storyboard */; };
+		8452BC911A053B8A009AD3AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8452BC901A053B8A009AD3AA /* Images.xcassets */; };
+		8452BC941A053B8A009AD3AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8452BC921A053B8A009AD3AA /* LaunchScreen.xib */; };
+		8452BCA01A053B8A009AD3AA /* LemonStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452BC9F1A053B8A009AD3AA /* LemonStandTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8452BC9A1A053B8A009AD3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8452BC7C1A053B8A009AD3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8452BC831A053B8A009AD3AA;
+			remoteInfo = LemonStand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8452BC841A053B8A009AD3AA /* LemonStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452BC881A053B8A009AD3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8452BC891A053B8A009AD3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8452BC8B1A053B8A009AD3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8452BC8E1A053B8A009AD3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8452BC901A053B8A009AD3AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8452BC931A053B8A009AD3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8452BC991A053B8A009AD3AA /* LemonStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452BC9E1A053B8A009AD3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8452BC9F1A053B8A009AD3AA /* LemonStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonStandTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8452BC811A053B8A009AD3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452BC961A053B8A009AD3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8452BC7B1A053B8A009AD3AA = {
+			isa = PBXGroup;
+			children = (
+				8452BC861A053B8A009AD3AA /* LemonStand */,
+				8452BC9C1A053B8A009AD3AA /* LemonStandTests */,
+				8452BC851A053B8A009AD3AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8452BC851A053B8A009AD3AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8452BC841A053B8A009AD3AA /* LemonStand.app */,
+				8452BC991A053B8A009AD3AA /* LemonStandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8452BC861A053B8A009AD3AA /* LemonStand */ = {
+			isa = PBXGroup;
+			children = (
+				8452BC891A053B8A009AD3AA /* AppDelegate.swift */,
+				8452BC8B1A053B8A009AD3AA /* ViewController.swift */,
+				8452BC8D1A053B8A009AD3AA /* Main.storyboard */,
+				8452BC901A053B8A009AD3AA /* Images.xcassets */,
+				8452BC921A053B8A009AD3AA /* LaunchScreen.xib */,
+				8452BC871A053B8A009AD3AA /* Supporting Files */,
+			);
+			path = LemonStand;
+			sourceTree = "<group>";
+		};
+		8452BC871A053B8A009AD3AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8452BC881A053B8A009AD3AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8452BC9C1A053B8A009AD3AA /* LemonStandTests */ = {
+			isa = PBXGroup;
+			children = (
+				8452BC9F1A053B8A009AD3AA /* LemonStandTests.swift */,
+				8452BC9D1A053B8A009AD3AA /* Supporting Files */,
+			);
+			path = LemonStandTests;
+			sourceTree = "<group>";
+		};
+		8452BC9D1A053B8A009AD3AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8452BC9E1A053B8A009AD3AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8452BC831A053B8A009AD3AA /* LemonStand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452BCA31A053B8A009AD3AA /* Build configuration list for PBXNativeTarget "LemonStand" */;
+			buildPhases = (
+				8452BC801A053B8A009AD3AA /* Sources */,
+				8452BC811A053B8A009AD3AA /* Frameworks */,
+				8452BC821A053B8A009AD3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonStand;
+			productName = LemonStand;
+			productReference = 8452BC841A053B8A009AD3AA /* LemonStand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8452BC981A053B8A009AD3AA /* LemonStandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8452BCA61A053B8A009AD3AA /* Build configuration list for PBXNativeTarget "LemonStandTests" */;
+			buildPhases = (
+				8452BC951A053B8A009AD3AA /* Sources */,
+				8452BC961A053B8A009AD3AA /* Frameworks */,
+				8452BC971A053B8A009AD3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8452BC9B1A053B8A009AD3AA /* PBXTargetDependency */,
+			);
+			name = LemonStandTests;
+			productName = LemonStandTests;
+			productReference = 8452BC991A053B8A009AD3AA /* LemonStandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8452BC7C1A053B8A009AD3AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Felipe;
+				TargetAttributes = {
+					8452BC831A053B8A009AD3AA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8452BC981A053B8A009AD3AA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8452BC831A053B8A009AD3AA;
+					};
+				};
+			};
+			buildConfigurationList = 8452BC7F1A053B8A009AD3AA /* Build configuration list for PBXProject "LemonStand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8452BC7B1A053B8A009AD3AA;
+			productRefGroup = 8452BC851A053B8A009AD3AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8452BC831A053B8A009AD3AA /* LemonStand */,
+				8452BC981A053B8A009AD3AA /* LemonStandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8452BC821A053B8A009AD3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452BC8F1A053B8A009AD3AA /* Main.storyboard in Resources */,
+				8452BC941A053B8A009AD3AA /* LaunchScreen.xib in Resources */,
+				8452BC911A053B8A009AD3AA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452BC971A053B8A009AD3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8452BC801A053B8A009AD3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452BC8C1A053B8A009AD3AA /* ViewController.swift in Sources */,
+				8452BC8A1A053B8A009AD3AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452BC951A053B8A009AD3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452BCA01A053B8A009AD3AA /* LemonStandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8452BC9B1A053B8A009AD3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8452BC831A053B8A009AD3AA /* LemonStand */;
+			targetProxy = 8452BC9A1A053B8A009AD3AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8452BC8D1A053B8A009AD3AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8452BC8E1A053B8A009AD3AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8452BC921A053B8A009AD3AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8452BC931A053B8A009AD3AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8452BCA11A053B8A009AD3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8452BCA21A053B8A009AD3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8452BCA41A053B8A009AD3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LemonStand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8452BCA51A053B8A009AD3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LemonStand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8452BCA71A053B8A009AD3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LemonStandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonStand.app/LemonStand";
+			};
+			name = Debug;
+		};
+		8452BCA81A053B8A009AD3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LemonStandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonStand.app/LemonStand";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8452BC7F1A053B8A009AD3AA /* Build configuration list for PBXProject "LemonStand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452BCA11A053B8A009AD3AA /* Debug */,
+				8452BCA21A053B8A009AD3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8452BCA31A053B8A009AD3AA /* Build configuration list for PBXNativeTarget "LemonStand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452BCA41A053B8A009AD3AA /* Debug */,
+				8452BCA51A053B8A009AD3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8452BCA61A053B8A009AD3AA /* Build configuration list for PBXNativeTarget "LemonStandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8452BCA71A053B8A009AD3AA /* Debug */,
+				8452BCA81A053B8A009AD3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8452BC7C1A053B8A009AD3AA /* Project object */;
+}
